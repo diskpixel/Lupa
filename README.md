@@ -1,3 +1,20 @@
+READ BEFORE DOWNLOAD ( LEIA ANTES DE BAIXAR )
+
+⚠️ Aviso do Windows SmartScreen/Defender
+
+Ao baixar e executar o instalador do Lupa, o Windows pode exibir um aviso como "O Windows protegeu o computador" ou um alerta do Defender indicando um app "não reconhecido" ou "potencialmente perigoso".
+
+Isso é um falso positivo. O motivo é técnico, não relacionado à segurança do código:
+
+O Lupa ainda não possui um certificado de assinatura de código (code signing), que é pago e usado para validar a identidade do desenvolvedor perante a Microsoft.
+Sem esse certificado, o Windows SmartScreen classifica o executável como "desconhecido" até que ele acumule um volume suficiente de downloads e execuções — processo chamado de reputação de arquivo.
+Como o Lupa recebe atualizações frequentes, cada nova versão do instalador gera um novo arquivo (hash diferente), reiniciando esse processo de reputação.
+Como prosseguir com segurança
+1 -  Verifique o hash SHA-256 do arquivo baixado e compare com o publicado na página de releases (veja abaixo).
+2 -  Clique em "Mais informações" na janela do SmartScreen.
+3 -  Clique em "Executar assim mesmo".
+
+
 # Lupa
 
 Um fórum-comunidade de ideias que resgata a essência da internet clássica, misturando a liberdade dos fóruns tradicionais (**4chan** / boards livres), a nostalgia dos perfis e recados do **Orkut** e a customização de perfil do **SpaceHey**. Tudo isso rodando como um aplicativo desktop moderno e instalável para o seu computador.
