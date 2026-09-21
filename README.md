@@ -13,7 +13,9 @@ Como prosseguir com segurança:
 
 
 1 -  Verifique o hash SHA-256 do arquivo baixado e compare com o publicado na página de releases (veja abaixo).
+
 2 -  Clique em "Mais informações" na janela do SmartScreen.
+
 3 -  Clique em "Executar assim mesmo".
 
 
